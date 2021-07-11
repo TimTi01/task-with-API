@@ -1,0 +1,135 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    min-height: auto;
+
+    background: antiquewhite;
+}
+
+/*========================*/
+
+.head_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.head__title {
+    height: 100%;
+    min-width: auto;
+    padding: 5px 0;
+}
+
+.delete-bttn {
+    cursor: pointer;
+}
+
+/*==========================*/
+
+.users_container {
+    width: 100%;
+    height: 100%;
+    min-height: auto;
+
+    background: lightcoral;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid indianred;
+}
+
+.user-style {
+    height: 100%;
+    min-width: auto;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.user_title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.user_post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: auto;
+    background: aquamarine;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+.post_cont {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.post_title {
+    text-align: center;
+    border: 1px solid darkseagreen;
+    background: #9efafa;
+}
+
+.post_body {
+    min-width: auto;
+    min-height: auto;
+    border: 1px solid darkseagreen;
+}
+
+.post_comment {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-left: 1px solid gold;
+    padding: 5px 0 5px 0;
+}
+
+.post_comment-email {
+    background: chartreuse;
+}
+
+post_comment-body {
+    background: darkcyan;
+}
+
+.post-bttn {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background-color: chartreuse;
+}
+
+.user-id,
+.user-name,
+.user-email,
+.user-postBttn,
+.user-delBttn {
+    flex-grow: 1;
+}
+
+
+
