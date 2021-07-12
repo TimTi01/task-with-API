@@ -80,7 +80,6 @@ async function getUser() {
     let showPosts = document.body.querySelectorAll('.post-bttn')
     showPosts.forEach( (elem, item) => {
         elem.addEventListener('click', (event) => {
-            // console.log(event.target.parentElement.nextSibling)
             event.target.parentElement.nextSibling.classList.toggle('hidden')
         })
     })
@@ -88,7 +87,6 @@ async function getUser() {
     let showComment = document.body.querySelectorAll('.show-comment')
     showComment.forEach( (elem, item) => {
         elem.addEventListener('click', (event) => {
-            // console.log(event.target.parentElement.nextSibling)
             event.target.parentElement.nextSibling.classList.toggle('hidden')
         })
     })
